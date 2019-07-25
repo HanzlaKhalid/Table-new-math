@@ -1,0 +1,124 @@
+body{
+    background-image: url(jm.JPG);
+    background-repeat: no-repeat;
+}
+.container{
+    min-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.card-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 620px;
+    height: 270px;
+    padding: 5px;
+}
+.img-1{
+    flex-wrap: wrap;
+    border-radius: 10px;
+    color: rgb(151, 205, 214);
+    box-shadow: 5px 5px 35px;
+    width: 180px;
+    height: 160px;
+}
+.p-1{
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(213, 248, 59);
+    font-weight: bold;
+    text-shadow: 10px 10px 20px;
+    font-size: 36px;
+    padding: 0px;
+    margin: 10px 0px 0px 10px;
+}
+.li-1{
+    font-size: 18px;
+    height: 270px;
+    width: 400px;
+    margin: 60px 0px 0px -15px;
+}
+.color-1{
+    color: rgb(108, 37, 223);
+}
+.color-2{
+    color: brown;
+}
+.color-3{
+    color: rgb(188, 213, 241);
+}
+.img-2{
+    margin: 30px 0px 0px 30px;
+    width: 340px;
+    height: 260px;
+}
+.p-2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 255, 128);
+    font-weight: bold;
+    text-shadow: 5px 5px 20px;
+    font-size: 26px;
+    padding: 0px;
+    margin: 10px 0px 0px 10px;
+}
+.li-2{
+    font-weight: bold;
+    font-size: 16px;
+    height: 200px;
+    color: rgb(85, 15, 70);
+    width: 400px;
+    margin: 50px 0px 0px -200px;
+}
+.img-3{
+    margin: 10px 0px 20px;
+    border-radius: 10px;
+    color: rgb(151, 205, 214);
+    box-shadow: 5px 5px 35px;
+    width: 180px;
+    height: 160px;
+}
+button{
+    border-radius: 3px;
+    border: 0px solid rgb(190, 167, 211);
+    width: 80px;
+    height: 39px;
+    font-size: 14px;
+    color: rgb(40, 131, 250);
+    background-color: rgb(198, 243, 243);
+    font-weight: bolder;
+    margin: 0px 0px 0px -1px;
+}
+button:hover{
+    background-color: rgb(100, 105, 105);
+    color: rgb(43, 245, 53);
+}
+.card-2{
+    padding-top: 10px;
+   flex-wrap: wrap;
+   display: flex;
+   width: 200px; 
+   height: 50px;
+
+}
+#number{
+    margin: 0px 0px 0px 0px;
+    border-radius: 3px;
+    border: 1px solid rgb(190, 167, 211);
+    padding: 3px 5px 0px 5px;
+    width: 80px;
+    height: 34px;
+    font-size: 18px;
+    background-color: rgb(177, 86, 33);
+    color: rgb(206, 222, 238);
+}
+input:hover{
+    background-color: rgb(150, 67, 18);
+    color: rgb(246, 249, 252);
+}
+input:focus{
+
+    background-color: rgb(150, 67, 18);
+    color: rgb(246, 249, 252);
+
+}
